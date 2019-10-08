@@ -9,10 +9,10 @@ def map_to_negativize(array_collection)
 final_array
 end 
 
-def map_to_no_change(dune_array)
+def map_to_no_change(source_array)
   final_array = []
   counter = 0 
-  while counter < dune_array.length do 
+  while counter < source_array.length do 
     final_array.push(source_array[counter])
     counter += 1 
   end 
